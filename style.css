@@ -151,7 +151,7 @@ picture >img {width:100%;
 }
 
 .opcoescard > h1 {margin-top: 30px;}
-.opcoescard > p {padding: 20px 25px 10px 25px; text-align: justify; font: normal 11pt arial;}
+.opcoescard > p {padding: 20px 25px 10px 25px; text-align: ; font: normal 11pt arial;}
 .opcoescard > p > img {margin-top: 30px; margin-left: 15px;}
 .opcoescard > img { float: left; padding: 10px; border: white 8px solid; border-radius: 2px; margin: 20px; display: flex;}
 
