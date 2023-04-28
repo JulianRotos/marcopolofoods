@@ -1,9 +1,6 @@
 @charset "utf-8";
 
-
-
-
-
+/*Início da Tela de início*/
 
 * {
     margin: 0px;
@@ -15,23 +12,23 @@ body {
     font-family: Arial, Helvetica, sans-serif; 
     }
 
-
-   
- 
-
     nav {
-       
         min-width: 300px;
         max-width: 1000px;
         background-color: #232020;
         color: white;
         display: flex;
         height: 125px;
-       
         margin: auto;
         }
         
-    .menusup {width: 99%; display: flex; color: white;  padding: 2px; list-style: none;  min-width: 300px;
+    .menusup {
+        width: 99%; 
+        display: flex; 
+        color: white;  
+        padding: 2px; 
+        list-style: none;  
+        min-width: 300px;
         max-width: 1000px;}
 
     .menusup > li {width: 100%; padding: 5px; border-radius: 2px;}
@@ -47,7 +44,7 @@ body {
             margin: auto;
             background-image: linear-gradient(to Bottom, #AF0001, #5e1616); 
             
-        }
+                    }
 
         header > h1 {
        
@@ -59,7 +56,7 @@ body {
             text-shadow: -2px 3px 4px rgba(0, 0, 0, 0.452);
             margin-bottom: 0px;
             
-     }
+                    }
 
      header > p {
         padding-top: 15px;
@@ -69,7 +66,7 @@ body {
         text-align: center;
         color: white;
         text-shadow: -2px 3px 4px rgba(0, 0, 0, 0.452);
-    }
+                 }
     
 
  article {
@@ -90,50 +87,24 @@ section > li {margin-left: 40px;}
 
 .menulist:hover {background-color: #333;}
 
-.menulist > ul {
-    list-style: none;
-    margin-top: 25px;
-    display: none; 
-    padding: 10px;
-    border-radius: 10px;
 
-    background-color: #232020
-}
 .menulist:hover > ul {display: flex;}
 
 li  {margin: 5px 5px; padding-left: 20px;}
 
-Li > a {
-    color: white;
-    text-decoration: none;
-}
-a:hover {text-decoration: underline;}
+Li > a {color: white; text-decoration: none;}
 
+a:hover {text-decoration: underline;}
 
 .contatolist {
     border-radius: 10px;
     padding-top: 50px;
-    width: 50%;
-    
-}
+    width: 50%; 
+                }
 
 .contatolist:hover {background-color: #333;}
 
-.contatolist > address {
-    display: none;
-  margin-top: 25px;
-    display: none; 
-    padding: 10px;
-    border-radius: 10px;
-
-    background-color: #232020}
-
-
 .contatolist:hover > address{background-color: #232020; display: block;}
-
-
-
-
 
 main {
     min-width: 300px;
@@ -146,9 +117,43 @@ main {
     border-bottom-right-radius: 10px; 
 }
 
-picture >img {width:100%; margin: 0px; padding: 0px;  min-width: 300px;
+picture >img {width:100%; 
+    margin: 0px; 
+    padding: 0px;  
+    min-width: 300px;
+    max-width: 1000px;
+            }
+
+/*Final Tela de Início*/
+
+/*Cardápio*/
+
+.card {margin-top: 50px; margin-bottom: 30px;}
+.card > h1 {color: #AF0001; ;}
+
+
+.subtitulo {width: 600px; padding-top: 5px; font-style: italic; font: normal 8pt arial; margin: auto;}
+
+.cardapio {display:flex; min-width: 300px;
     max-width: 1000px;}
 
+.opcoescard {
+    min-width: 300px;
+    max-width: 1000px;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #333; 
+    width:800px; 
+    height: 450px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.opcoescard > h1 {margin-top: 30px;}
+.opcoescard > p {padding: 20px 25px 10px 25px; text-align: justify; font: normal 11pt arial;}
+.opcoescard > p > img {margin-top: 30px; margin-left: 15px;}
+.opcoescard > img { float: left; padding: 10px; border: white 8px solid; border-radius: 2px; margin: 20px; display: flex;}
 
 
 
